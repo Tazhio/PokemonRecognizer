@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <title>Recognition Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/pokedex.css') }}" type="text/css">
+    <style>
+        h2{
+            /*float: left;*/
+            /*clear: right;*/
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+
+   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+       <div class="banner">
+ <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">Recognition Result</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link " href="{{ url_for('index') }}">Home</a>
+        <a class="nav-link" href="{{ url_for('pokedex') }}">Pokedex</a>
+        <a class="nav-link active" href="{{ url_for('upload_file') }}">Recognizer</a>
+        <a class="nav-link" href="{{ url_for('about_us') }}">About</a>
+         <a class="nav-link" href="{{ url_for('references') }}">Reference</a>
+      </nav>
+    </div>
+  </header>
+    </div>
+
+    </div>
+<div id="bg" style="min-height: 100%">
+<h2>The ID of pokemon is: <span id="pokemon_id">{{pokemonid}}</span></h2>
+<div id="poke_container" class="poke-container">
+
+</div>
+    </div>
+<script type=text/javascript src="{{url_for('static', filename='JS/single-pokecard.js') }}"></script>
+</body>
+</html>
+

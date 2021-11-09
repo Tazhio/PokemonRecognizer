@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>News</title>
+
+    <!-- Bootstrap core CSS -->
+       <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<link href="{{ url_for('static', filename='assets/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+        background-image: url("../static/images/p1.png");
+        background-color: #333333;
+}
+
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="{{ url_for('static', filename='CSS/blog.css') }}" rel="stylesheet">
+
+      <style>
+          body{
+              color: whitesmoke;
+          }
+      </style>
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#">Pokemon Page</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ url_for('index') }}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('pokedex') }}">Pokedex</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('upload_file') }}">Recognizer</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('about_us') }}">About</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('references') }}">Reference</a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+
+    <main role="main" class="container">
+  <div class="row card-background" >
+    <div class="col-md-8 blog-main">
+      <h3 class="pb-4 mb-4 font-italic border-bottom">
+       News
+      </h3>
+
+      <div class="blog-post card-background">
+        <h2 class="blog-post-title"> Recruit Galarian Slowpoke in a Pokémon Café Mix Team Event</h2>
+        <p class="blog-post-meta">November 18, 2020 by
+<!--          <a href="#">Mark</a>-->
+        </p>
+        <hr>
+        <p>A new team challenge has begun, and you can also recruit Piplup by playing through the newly added levels.</p>
+          <p>Anew team event has begun in Pokémon Café Mix—you can work with your squad to convince Galarian Slowpoke to join your café staff. From November 18, 2020, to December 2, 2020, the Dopey Pokémon will swing by your café to get some delicious treats. As you and your team complete orders, you'll earn stars that raise Galarian Slowpoke's satisfaction level. The more stars you collectively earn, the more presents you'll receive. Keep earning stars, and you'll convince the Pokémon to join your café crew.</p>
+
+
+
+
+<p>Orders 551 through 600 have been added to the game, too. And if you make enough progress, the lovable Piplup will begin visiting your café as a customer. As always, if you serve this new Pokémon enough orders, it will decide to join your café staff. Expert players will also be able to take on Master Café levels 276 through 300, which have also just been added.</p>
+
+          <p>Good luck working with your team to recruit Galarian Slowpoke! Pokémon Café Mix is available to download now for Nintendo Switch and iOS and Android devices, so don't miss out on all the fun! For more details, be sure to visit the Pokémon Café Mix official site.</p>
+      </div><!-- /.blog-post -->
+
+
+    </div><!-- /.blog-main -->
+
+
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
+
+
+
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>News</title>
+
+    <!-- Bootstrap core CSS -->
+       <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<link href="{{ url_for('static', filename='assets/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+        background-image: url("../static/images/p1.png");
+        background-color: #333333;
+}
+
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="{{ url_for('static', filename='CSS/blog.css') }}" rel="stylesheet">
+
+      <style>
+          body{
+              color: whitesmoke;
+          }
+      </style>
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#">Pokemon Page</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ url_for('index') }}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('pokedex') }}">Pokedex</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('upload_file') }}">Recognizer</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('about_us') }}">About</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('references') }}">Reference</a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+
+    <main role="main" class="container">
+  <div class="row card-background" >
+    <div class="col-md-8 blog-main">
+      <h3 class="pb-4 mb-4 font-italic border-bottom">
+       News
+      </h3>
+
+      <div class="blog-post card-background">
+        <h2 class="blog-post-title"> See Pikachu in the 2020 Macy’s Thanksgiving Day Parade</h2>
+        <p class="blog-post-meta">November 23, 2020
+        </p>
+        <hr>
+        <p>Tune in for a special celebration featuring dancing Pikachu and the iconic giant balloon on Thursday, November 26.
+</p>
+          <p>Don't miss the famous Pikachu soaring among the skyscrapers of Manhattan in the 2020 Macy's Thanksgiving Day Parade®! The parade will be held in New York City on Thanksgiving Day, November 26. It's the 20th consecutive time that the Pikachu balloon will proudly take its place in this prestigious parade. You can watch the spectacle on NBC and Telemundo from 9 a.m.–12 p.m. in all time zones.</p>
+
+
+          <p>Look for the iconic Pokémon to appear holding a snowman Pikachu and wearing a scarf in preparation for the cold weather! And be sure to catch a special troupe of dancing Pikachu in the parade. Tune in to find out why they're making a special appearance this year.
+
+          </p>
+
+          <p>
+              Have a happy Thanksgiving with Pikachu and the 2020 Macy's Thanksgiving Day Parade!
+          </p>
+
+      </div><!-- /.blog-post -->
+
+
+    </div><!-- /.blog-main -->
+
+
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
+
+
+
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>

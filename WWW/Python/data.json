@@ -1,0 +1,24 @@
+{
+ "auth": {
+  "identity": {
+   "methods": [
+    "password"
+   ],
+   "password": {
+    "user": {
+     "domain": {
+      "name": "tazhio"
+     },
+     "name": "tazhio",
+     "password": "ai_work_harderDi#0"
+    }
+   }
+  },
+  "scope": {
+   "project": {
+    "id": "06eda29763000ffd2fc5c015606e222a",
+    "name": "cn-north-4"
+   }
+  }
+ }
+}

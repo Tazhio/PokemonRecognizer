@@ -1,0 +1,2 @@
+recursive-include Python/templates *
+recursive-include Python/static *

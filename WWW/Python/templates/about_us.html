@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>About Us</title>
+       <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+
+    <!-- Bootstrap core CSS -->
+<link href="{{ url_for('static', filename='assets/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+        background-image: url("../static/images/p1.png");
+        background-color: #333333;
+}
+
+
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <!-- Custom styles for this template -->
+   <link href="{{ url_for('static', filename='CSS/blog.css') }}" rel="stylesheet">
+
+      <style>
+          body{
+              color: whitesmoke;
+          }
+      </style>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#">Pokemon Page</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('index') }}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('pokedex') }}">Pokedex</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('upload_file') }}">Recognizer</a>
+      </li>
+         <li class="nav-item active">
+        <a class="nav-link" href="{{ url_for('about_us') }}">About</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('references') }}">Reference</a>
+      </li>
+
+
+    </ul>
+
+  </div>
+</nav>
+
+    <main role="main" class="container">
+  <div class="row card-background" >
+    <div class="col-md-8 blog-main">
+      <h3 class="pb-4 mb-4 font-italic border-bottom">
+        About the Authors
+      </h3>
+
+      <div class="blog-post card-background">
+<!--        <h2 class="blog-post-title">Sample blog post</h2>-->
+          <p class="blog-post-meta">November 30, 2020 by <a href="#">Wendi</a> and  <a href="#">Sophie</a></p>
+          <p>This website was a random idea. But glad that we brought it here.</p>
+
+          <h3>Wendi Zhou</h3>
+        <p>My name is Wendi. I am a new transfer student from China. I major in CS in China now I am also studying Video Game Development and Design.
+            I procrastinate a lot and I am always having a hard time sitting still and finishing the work.
+            <blockquote>
+          <p><strong>"Talk is cheap. Show me the code."</strong>
+          A lot of people that I admire are putting the quote from Linus Torvalds as their motto. I am trying to live closer to that.
+      </p>
+        </blockquote>
+
+        </p>
+
+          <h3>Sophie Regele</h3>
+        <p>
+           Hi! My name is Sophie Regele and I am currently a freshman at Purdue University studying User Experience Design. I grew up in Zionsville, IN
+            and from a very young age was intrigued by any sort of creative project.
+            So the creation of this website was right up my alley! That being said, in my free time I love to paint and draw as well as travel, hike and ski.
+            When I’m not away at college, you can usually find me curled up with my cat reading a book or watching movies.
+
+
+
+        </p>
+      </div><!-- /.blog-post -->
+
+
+    </div><!-- /.blog-main -->
+
+        <aside class="col-md-4 blog-sidebar ">
+      <div class="p-4 mb-3 rounded bg-dark text-white">
+        <h4 class="font-italic">Contact Us</h4>
+        <br class="mb-0">
+
+          <strong>Wendi Zhou:</strong></br> zhou1192@purdue.edu</p>
+          </br>
+          <p><strong>Sophie Regele:</strong></br>  sregele@purdue.edu</p>
+        </p>
+      </div>
+
+    </aside>
+
+  </div><!-- /.row -->
+
+
+</main><!-- /.container -->
+
+
+
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>

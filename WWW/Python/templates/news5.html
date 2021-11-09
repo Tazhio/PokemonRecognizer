@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>News</title>
+
+    <!-- Bootstrap core CSS -->
+       <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<link href="{{ url_for('static', filename='assets/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+        background-image: url("../static/images/p1.png");
+        background-color: #333333;
+}
+
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="{{ url_for('static', filename='CSS/blog.css') }}" rel="stylesheet">
+
+      <style>
+          body{
+              color: whitesmoke;
+          }
+      </style>
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#">Pokemon Page</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ url_for('index') }}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('pokedex') }}">Pokedex</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('upload_file') }}">Recognizer</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('about_us') }}">About</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('references') }}">Reference</a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+
+    <main role="main" class="container">
+  <div class="row card-background" >
+    <div class="col-md-8 blog-main">
+      <h3 class="pb-4 mb-4 font-italic border-bottom">
+       News
+      </h3>
+
+      <div class="blog-post card-background">
+        <h2 class="blog-post-title"> Meet Sou Kinoshita, the Screenwriter behind Pokémon: Twilight Wings</h2>
+        <p class="blog-post-meta">November 18, 2020
+        </p>
+        <hr>
+        <p>Learn about writing a compelling story in the second in our series of interviews with the creative team behind Pokémon: Twilight Wings.</p>
+          <p>For our second interview with the creators of Pokémon: Twilight Wings, we ask Sou Kinoshita, who wrote the scripts for all seven episodes, about what went on in the background during the writing process and what sentiments were imbued into the characters.</p>
+
+          <p>Q: I understand you took the lead on scriptwriting for Pokémon: Twilight Wings. Can you explain exactly what that entailed in the context of the production process?</p>
+          <p>A: By the time I joined the project, each episode already had a rough outline—about four lines of text. I took those outlines as a basis and wrote a proposal for the story I wanted to tell, then talked things through with the director and other staff members, and wrote the overarching plot that would be the backbone of the story. With that plot in place, I started writing the individual episode scripts. Scripts are like blueprints for the story of an animated work, but since they're made up solely of words, I had to take care with each word I wrote, paying close attention to when and where lines were said, who said them, what they were doing at the time, and what they said. Some ideas (such as physical movements and nuances) don't come across well in scripts, so I conveyed those ideas verbally in meetings, or else in footnotes.
+
+</p>
+
+
+
+      </div><!-- /.blog-post -->
+
+
+    </div><!-- /.blog-main -->
+
+
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
+
+
+
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>

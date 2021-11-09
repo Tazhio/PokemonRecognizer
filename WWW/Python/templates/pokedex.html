@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PokeDex</title>
+     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+     <link rel="stylesheet" href="{{ url_for('static', filename='CSS/pokedex.css') }}" type="text/css">
+<!--    <link rel="stylesheet" href="../static/CSS/pokedex.css">-->
+
+</head>
+<body>
+<div class="banner">
+ <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">Pokedex</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+        <a class="nav-link active" href="{{ url_for('pokedex') }}">Pokedex</a>
+        <a class="nav-link" href="{{ url_for('upload_file') }}">Recognizer</a>
+        <a class="nav-link" href="{{ url_for('about_us') }}">About</a>
+         <a class="nav-link" href="{{ url_for('references') }}">Reference</a>
+      </nav>
+    </div>
+  </header>
+    </div>
+
+<!--<h1>PokeDex</h1>-->
+ <div id="bg">
+<div id="poke_container" class="poke-container">
+
+</div>
+     </div>
+<script type=text/javascript src="{{
+  url_for('static', filename='JS/pokedex.js') }}"></script>
+<!--<script src="../static/JS/pokedex.js"></script>-->
+
+</body>
+
+</html>
